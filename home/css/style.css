@@ -1,20 +1,26 @@
 .banner {
-    justify-content: center;
     height: 90vh;
-    background-image: url('/home/img/banner.jpg');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
     position: relative;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 
 .banner .overlay {
     opacity: 0.6;
+    z-index: 7;
 }
 
 .banner .row {
+    height: 90vh;
+    justify-content: center;
+    background-image: url('/home/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
     color: var(--white);
     z-index: 10;
+    padding: 0 30px;
+    margin: 0 auto;
 }
 
 .banner.section .row.flex-col.center {
@@ -23,8 +29,13 @@
 
 .banner h1,
 .banner p {
-    text-align: left;
-    width: 60%;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+.width-40 {
+    text-align: center;
 }
 
 .banner .btn-wrapper {
@@ -57,9 +68,20 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
-    background-color: var(--white);
+    background-color: var(--services-background);
     padding: 30px;
     border-radius: 12px;
+}
+
+.services-wrapper .item a {
+    color: var(--white);
+    margin-top: 20px;
+    transition: var(--transition);
+}
+
+.services-wrapper .item a:hover {
+    color: var(--primary);
+    transition: var(--transition);
 }
 
 .dots {
