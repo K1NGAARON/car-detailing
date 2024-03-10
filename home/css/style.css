@@ -34,6 +34,11 @@
     z-index: 10;
 }
 
+.banner .btn {
+    z-index: 10;
+    margin-top: 20px;
+}
+
 .width-40 {
     text-align: center;
 }

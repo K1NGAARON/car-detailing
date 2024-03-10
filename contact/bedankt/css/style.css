@@ -1,0 +1,27 @@
+.banner.section,
+.banner.section .row {
+    min-height: 100vh;
+}
+
+.banner {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.banner .row {
+    justify-content: center;
+    background-image: url('/home/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: var(--white);
+    z-index: 10;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.banner .overlay {
+    opacity: 0.6;
+    z-index: 7;
+}

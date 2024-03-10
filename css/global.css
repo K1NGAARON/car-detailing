@@ -86,7 +86,7 @@ img {
 
 .section .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1600px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -420,6 +420,22 @@ img {
 @media (max-width: 1000px) {
     .form-wrapper {
         width: 100%;
+    }
+
+    .section .row {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .section .row {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .section .row {
+        max-width: 1200px;
     }
 }
 

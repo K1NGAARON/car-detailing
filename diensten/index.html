@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-       Pagina Niet Gevonden | PJ's Garage
+        Onze Diensten | PJ's Garage
     </title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/header-footer.css">
     <link rel="stylesheet" href="/home/css/style.css">
+
+    <link rel="stylesheet" href="/diensten/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
@@ -23,7 +25,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
- 
+
 <header>
     <div class="section header" id="header">
         <div class="row">
@@ -39,7 +41,7 @@
                     <a class="nav" href="/over-ons/">
                         Over Ons
                     </a>
-                    <a class="nav" href="/diensten/">
+                    <a class="nav current-page" href="/diensten/">
                         Diensten
                     </a>
                 </nav>
@@ -83,14 +85,83 @@
 </header>
     
 <div class="section banner">
-    <div class="row flex-col center">
+    <div class="row flex-col center animate">
         <h1>
-            Pagina niet gevonden | 404
+            Hier komt de eerste titel
         </h1>
-        <a href="/" class="btn">
-            Bezoek onze startpagina
-        </a>
         <div class="overlay"></div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="row animate">
+        <div class="col">
+            <h2>
+                Hier komt een titel
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel porro consequatur corporis eligendi laudantium at tempore dolor ipsa eaque aut!
+            </p>
+            <a href="/diensten/" class="btn">
+                Ontdek diensten
+            </a>
+        </div>
+        <div class="col">
+            <img src="/home/img/placeholder-img.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="section contact" id="contact">
+    <div class="row animate">
+        <div class="col">
+            <h2>
+                Contact informatie
+            </h2>
+            <div class="legal">
+                <div class="legal-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <a href="mailto:info@domein.be">info@domein.be</a>
+                </div>
+                <div class="legal-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <a href="tel:+32 474 06 32 40">+32 474 06 32 40</a>
+                </div>
+                <div class="legal-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <p>Straat & stad</p>
+                </div>
+                <div class="legal-item">
+                    <div class="icon">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <p>BE 1234 123 123</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-wrapper">
+                <form action="https://formspree.io/f/xdoqddvb" method="post" target="_blank" novalidate>
+                    <div class="form-row">
+                        <input type="text" value="" name="first-name" placeholder="Voornaam*" required>
+                        <input type="email" value="" name="company" placeholder="Familienaam*" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" value="" name="email" placeholder="E-mailadres*" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" value="" name="message" placeholder="Hoe kunnen we je helpen?*">
+                    </div>
+                    <input type="submit" value="Verstuur ➔" name="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 
