@@ -1,5 +1,5 @@
 .banner {
-    height: 90vh;
+    height: 50vh;
     position: relative;
     margin: 0 auto;
     padding: 0 30px;
@@ -11,7 +11,7 @@
 }
 
 .banner .row {
-    height: 90vh;
+    height: 50vh;
     justify-content: center;
     background-image: url('/home/img/banner.jpg');
     background-repeat: no-repeat;
